@@ -21,7 +21,8 @@ nav {
     padding: 1% 6%;
     justify-content: space-between;
     align-items: center;
-
+    position: fixed;
+    width: 100%;
     top: 0;
     background: rgba(4, 9, 30, 0.9);
     z-index: 1000;
@@ -691,6 +692,10 @@ h3 {
 }
 
 .ham-parent {
+    display: none;
+}
+
+#nav-close-btn {
     display: none;
 }
 
